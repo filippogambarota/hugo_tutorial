@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Making a peRsonal website with Hugo and Github</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Filippo Gambarota" />
+    <meta name="date" content="2019-11-16" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Making a peRsonal website with Hugo and Github
+## Psicostat
+### Filippo Gambarota
+### 2019-11-16
+
+---
+
+
+
+class: inverse, center, middle
+
+# What we need for creating our website?
+
+---
+# What we need for creating our website?
+
+--
+
+### Hugo Framework
+
+--
+
+### GIT and Github
+
+--
+
+### An hosting service
+
+--
+
+### Optionally:
+  
+  * A code editor with `version control functions` for example **RStudio** or **VSCode**
+  
+  * A **custom domain** instead of `website.github.io, website.netlify.com`
+  
+---
+class: inverse, center, middle
+
+# Hugo Framework
+
+&lt;img src="img/hugo.svg" width="500" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Hugo
+
+* Hugo is a **static site generator** written in GO that allow to easily create and manage fast and secure website.
+
+* The whole website is **stored locally and deployed** through your favorite service.
+
+* You can write your contents in **Markdown**, **RMarkdown** and **HTML**.
+
+* There are different themes for different needs: portfolio, personal webpage, academic webpage, etc.
+
+---
+# Academic Theme
+
+* This is a **theme** (more than a simple graphical customization) sepcifically developed for academic purposes.
+
+* There are several templates for different tipical academic contents: posters, talks, publications and cv-like functions (experience, skills, etc.)
+
+&lt;img src="img/academic.png" width="1219" style="display: block; margin: auto;" /&gt;
+
+---
+
+# GIT and GitHub
+
+* The website is created locally but all changes are tracked with GIT and committed to GitHub (or other online repositories like Gitlab).
+
+* You can manage your website simply changing files and pushing to Github
+
+.pull-left[
+
+&lt;img src="img/websitefolder.png" width="774" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+
+&lt;img src="img/websitegithub.png" width="815" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# Hosting Service - Netlify
+
+* Netlify is a free hosting and deploying service (up to a certain amount of traffic and functions) perfectly integrated with Hugo, Github and the Academic theme.
+
+* Support a **custom domain**. For example Google offer a domain `.com` for 12$ per year and you can avoid `.github.io` or `netlify.com`.
+
+&lt;img src="img/netlify.png" width="1222" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Summing up
+
+&lt;/br&gt;
+
+&lt;img src="img/general_scheme.svg" style="display: block; margin: auto;" /&gt;
+
+---
+class: inverse, center, middle
+
+# How to manage the website?
+
+---
+
+# How to manage the website?
+
+&lt;/br&gt;
+
+### 1. Using an **IDE** with version-control features and maybe advanced markdown support
+
+
+### 2. Using RStudio with `Blogdown`
+
+
+### 3. Using a **Content Management System** (CMS)
+
+---
+
+# VSCode (what I mostly use)
+
+* VSCode is an open-source coding environment with version control and advanced markdown support (live preview, Syntax highlighting, etc.)
+
+&lt;img src="img/vscode.png" width="1279" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Blogdown by Yihui Xie
+
+* Is a package that natively support Hugo framework and Hugo commands. 
+
+* In addition given the support of RMarkdown files you can use your R code inside the website as in a standard RMarkdown HTML report.
+
+&lt;img src="img/blogdown_final.svg" style="display: block; margin: auto;" /&gt;
+
+---
+
+# CMS
+
+### It's a **point and click** editor like Wordpress or similar services.
+
+### ⚠️ Netlify CMS for example should be natively integrated with Hugo &lt;u&gt; but not with the Academic theme &lt;/u&gt;. So the structure of Academic may not be compatible.
+
+.pull-left[
+![](img/netlifycms.png)
+]
+
+.pull-right[
+![](img/netlifycms_gif.gif)
+]
+---
+class: inverse, center, middle
+
+# Let's view how Hugo looks like 😉
+
+### Check the [GitHub Repository](https://github.com/filippogambarota/hugowebsite) for these slides and other resources!
+
+&lt;br/&gt;
+&lt;br/&gt;
+
+### .large[[filippo.gambarota@phd.unipd.it](mailto:filippo.gambarota@phd.unipd.it)]
+
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+
+.tiny[Slides made with the [Xaringan](https://github.com/yihui/xaringan) package by [Yihui Xie](https://yihui.name/)]
+
+
+&lt;img src="img/final_logo.svg" width="400" /&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
