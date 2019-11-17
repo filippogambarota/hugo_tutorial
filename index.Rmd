@@ -58,22 +58,28 @@ knitr::include_graphics("img/hugo.svg")
 
 # Hugo
 
-* Hugo is a **static site generator** written in GO that allow to easily create and manage fast and secure website.
+* ### Hugo is a **static site generator** written in GO that allow to easily create and manage fast and secure website.
 
-* The whole website is **stored locally and deployed** through your favorite service.
+</br>
 
-* You can write your contents in **Markdown**, **RMarkdown** and **HTML**.
+* ### The whole website is **stored locally and deployed** through your favorite service.
 
-* There are different themes for different needs: portfolio, personal webpage, academic webpage, etc.
+</br>
+
+* ### You can write your contents in **Markdown**, **RMarkdown** and **HTML**.
+
+</br>
+
+* ###There are different themes for different needs: portfolio, personal webpage, academic webpage, etc.
 
 ---
 # Academic Theme
 
-* This is a **theme** (more than a simple graphical customization) sepcifically developed for academic purposes.
+* ### This is a **theme** (more than a simple graphical customization) specifically developed for academic purposes.
 
-* There are several templates for different tipical academic contents: posters, talks, publications and cv-like functions (experience, skills, etc.)
+* ### There are several templates for different tipical academic contents: posters, talks, publications and cv-like functions (experience, skills, etc.)
 
-```{r echo=FALSE, fig.align='center'}
+```{r echo=FALSE, fig.align='center',out.width= 700}
 knitr::include_graphics("img/academic.png")
 ```
 
@@ -81,13 +87,13 @@ knitr::include_graphics("img/academic.png")
 
 # GIT and GitHub
 
-* The website is created locally but all changes are tracked with GIT and committed to GitHub (or other online repositories like Gitlab).
+* The website is **created locally** but all changes are tracked with **GIT** and committed to **GitHub** (or other online repositories like Gitlab).
 
-* You can manage your website simply changing files and pushing to Github
+* You can manage your website **simply changing files and pushing to Github**
 
 .pull-left[
 
-```{r echo=FALSE, fig.align='center'}
+```{r echo=FALSE, fig.align='center', out.width= 500}
 knitr::include_graphics("img/websitefolder.png")
 ```
 
@@ -135,11 +141,9 @@ class: inverse, center, middle
 </br>
 
 ### 1. Using an **IDE** with version-control features and maybe advanced markdown support
-
-
+</br>
 ### 2. Using RStudio with `Blogdown`
-
-
+</br>
 ### 3. Using a **Content Management System** (CMS)
 
 ---
@@ -160,7 +164,7 @@ knitr::include_graphics("img/vscode.png")
 
 * In addition given the support of RMarkdown files you can use your R code inside the website as in a standard RMarkdown HTML report.
 
-```{r echo=FALSE, fig.align='center'}
+```{r echo=FALSE, fig.align='center', out.width=800}
 knitr::include_graphics("img/blogdown_final.svg")
 ```
 
@@ -184,7 +188,7 @@ class: inverse, center, middle
 
 # Let's view how Hugo looks like 😉
 
-### Check the [GitHub Repository](https://github.com/filippogambarota/hugowebsite) for these slides and other resources!
+### Check [filippogambarota/hugowebsite](https://github.com/filippogambarota/hugowebsite) on Github for these slides and other resources!
 
 <br/>
 <br/>
@@ -193,12 +197,10 @@ class: inverse, center, middle
 
 <br/>
 <br/>
-<br/>
-<br/>
 
 .tiny[Slides made with the [Xaringan](https://github.com/yihui/xaringan) package by [Yihui Xie](https://yihui.name/)]
 
 
-```{r echo=FALSE, out.width=400}
+```{r echo=FALSE, out.width=450}
 knitr::include_graphics("img/final_logo.svg")
 ```
