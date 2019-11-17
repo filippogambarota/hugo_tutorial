@@ -142,13 +142,13 @@ class: inverse, center, middle
 
 ### 1. Using an **IDE** with version-control features and maybe advanced markdown support
 </br>
-### 2. Using RStudio with `Blogdown`
+### 2. Using **RStudio** with `Blogdown`
 </br>
 ### 3. Using a **Content Management System** (CMS)
 
 ---
 
-# VSCode (what I mostly use)
+# 1. VSCode (what I mostly use)
 
 * VSCode is an open-source coding environment with version control and advanced markdown support (live preview, Syntax highlighting, etc.)
 
@@ -158,7 +158,7 @@ knitr::include_graphics("img/vscode.png")
 
 ---
 
-# Blogdown by Yihui Xie
+# 2. Blogdown by Yihui Xie
 
 * Is a package that natively support Hugo framework and Hugo commands. 
 
@@ -170,7 +170,7 @@ knitr::include_graphics("img/blogdown_final.svg")
 
 ---
 
-# CMS
+# 3. CMS
 
 ### It's a **point and click** editor like Wordpress or similar services.
 
