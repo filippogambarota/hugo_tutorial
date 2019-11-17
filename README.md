@@ -1,6 +1,22 @@
 # Making a peRsonal website with Hugo and Github
 
-This repository contain materials about building a personal and academic website using Hugo and the Academic theme. Introduction slides are available at [this link](https://filippogambarota.github.io/hugowebsite/). Here there are some links and resources to get start with Hugo. This is not a complete guide to Hugo or a deep tutorial about managing a static website but simply a starting point.
+This repository contain materials about building a personal and academic website using Hugo and the Academic theme. There are [introduction slides](https://filippogambarota.github.io/hugowebsite/) and some links and resources to get start with Hugo. This is not a complete guide to Hugo or a deep tutorial about managing a static website but simply a starting point.
+
+# Table of Contents
+
+* [Hugo](#hugo)
+* [Academic Theme](#academic-theme)
+* [Blogdown](#blogdown)
+* [Netlify](#netlify)
+* [A tested workflow](#a-tested-workflow)
+    * [1. Create a Github repository](#1-create-a-github-repository)
+    * [2. RStudio Project](#2-rstudio-project)
+    * [3. Clone the Github repository](#3-clone-the-github-repository)
+    * [4. Connect Netlify and Github](#4-connect-netlify-and-github)
+* [How to manage the website](#how-to-manage-the-website)
+  * [Fundamental commands](#fundamental-commands)
+* [Other useful resources](#other-useful-resources)
+  * [Blog Posts](#blog-posts)
 
 ## Hugo
 
