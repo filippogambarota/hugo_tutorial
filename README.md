@@ -1,6 +1,6 @@
 # Making a peRsonal website with Hugo and Github
 
-This repository contain materials about building a personal and academic website using Hugo and the Academic theme. There are [introduction slides](https://filippogambarota.github.io/hugowebsite/) and some links and resources to get start with Hugo. This is not a complete guide to Hugo or a deep tutorial about managing a static website but simply a starting point.
+This repository contain materials about building a personal and academic website using Hugo and the Academic theme. There are [introduction slides](https://filippogambarota.github.io/hugo_tutorial/) and some links and resources to get start with Hugo. This is not a complete guide to Hugo or a deep tutorial about managing a static website but simply a starting point.
 
 # Table of Contents
 
