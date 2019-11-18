@@ -184,6 +184,21 @@ knitr::include_graphics("img/blogdown_final.svg")
 ![](img/netlifycms_gif.gif)
 ]
 ---
+# GitHub Repository
+
+.pull-left[
+```{r echo=FALSE}
+knitr::include_graphics("img/github_repo.png")
+```
+]
+
+.pull-left[
+```{r echo=FALSE}
+knitr::include_graphics("img/github_repo2.png")
+```
+]
+
+---
 class: inverse, center, middle
 
 # Let's view how Hugo looks like 😉
