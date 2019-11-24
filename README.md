@@ -4,19 +4,22 @@ This repository contains materials about building a personal and academic websit
 
 # Table of Contents
 
-* [Hugo](#hugo)
-* [Academic Theme](#academic-theme)
-* [Blogdown](#blogdown)
-* [Netlify](#netlify)
-* [A tested workflow](#a-tested-workflow)
-    * [1. Create a Github repository](#1-create-a-github-repository)
-    * [2. RStudio Project](#2-rstudio-project)
-    * [3. Clone the Github repository](#3-clone-the-github-repository)
-    * [4. Connect Netlify and Github](#4-connect-netlify-and-github)
-* [How to manage the website](#how-to-manage-the-website)
-  * [Fundamental commands](#fundamental-commands)
-* [Other useful resources](#other-useful-resources)
-  * [Blog Posts](#blog-posts)
+- [Making a peRsonal website with Hugo and Github](#making-a-personal-website-with-hugo-and-github)
+- [Table of Contents](#table-of-contents)
+  - [Hugo](#hugo)
+  - [Academic Theme](#academic-theme)
+  - [Blogdown](#blogdown)
+  - [Netlify](#netlify)
+- [A tested workflow](#a-tested-workflow)
+    - [1. Create a Github repository](#1-create-a-github-repository)
+    - [2. RStudio Project](#2-rstudio-project)
+    - [3. Clone the Github repository](#3-clone-the-github-repository)
+    - [4. Connect Netlify and Github](#4-connect-netlify-and-github)
+- [How to manage the website](#how-to-manage-the-website)
+  - [Fundamental commands](#fundamental-commands)
+- [How to modify the theme](#how-to-modify-the-theme)
+- [Other useful resources](#other-useful-resources)
+  - [Blog Posts](#blog-posts)
 
 ## Hugo
 
@@ -86,6 +89,11 @@ This creates a new content based on Hugo templates within the selected path. For
 `hugo server` and Blogdown equivalent `blogdown::serve_site()`
 
 This will render the website locally so you can see all your changes before pushing it online. Furthermore, you can have a live preview update of all modifications simply saving the files and sometimes refresh the webpage.
+
+# How to modify the theme
+
+The Academic theme has several customization options. You can set a combination of `Fonts` and `Colors` for customizing the standard theme. For example in the [themes](https://sourcethemes.com/academic/themes/) section of the documentation you can find different combinations.
+Changing the `theme = ""` parameter inside the `config/_default/params.toml` file, will affect the entire website. You can also deeply customize the appaerance of your standard theme following the [documentation](https://sourcethemes.com/academic/docs/customization/#custom-theme). For example, if you want to customize the colors combination of the standard **minimal theme**, you can go to `themes/hugo-academic/data/themes/minimal.toml` and changing colors using the **html color code**. There are also other possibilities such as changing **fonts** and using **custom icons**.
 
 # Other useful resources
 
